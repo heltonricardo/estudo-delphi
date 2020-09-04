@@ -11,11 +11,10 @@ type
   TfrmPrincipal = class(TForm)
     edtMensagem: TEdit;
     btnOK: TButton;
-    TouchKeyboard1: TTouchKeyboard;
-    pnlPai: TPanel;
+    pnlExterno: TPanel;
     btnInserir: TButton;
-    Panel2: TPanel;
-    Button3: TButton;
+    pnlInterno: TPanel;
+    btnDeletar: TButton;
   private
     { Private declarations }
   public
