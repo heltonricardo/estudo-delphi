@@ -15,15 +15,15 @@ object Form1: TForm1
   TextHeight = 13
   object Edit1: TEdit
     Left = 40
-    Top = 40
+    Top = 26
     Width = 121
     Height = 21
     TabOrder = 0
     Text = 'Edit1'
   end
   object Button1: TButton
-    Left = 272
-    Top = 136
+    Left = 208
+    Top = 24
     Width = 75
     Height = 25
     Caption = 'Button1'
@@ -37,5 +37,37 @@ object Form1: TForm1
     GradientEnd = clSilver
     GradientStart = clGray
     Layout = 'Standard'
+  end
+  object Panel1: TPanel
+    Left = 32
+    Top = 96
+    Width = 585
+    Height = 193
+    Caption = 'Panel1'
+    TabOrder = 3
+    object Button2: TButton
+      Left = 496
+      Top = 16
+      Width = 75
+      Height = 25
+      Caption = 'Button2'
+      TabOrder = 0
+    end
+    object Panel2: TPanel
+      Left = 8
+      Top = 7
+      Width = 441
+      Height = 170
+      Caption = 'Panel2'
+      TabOrder = 1
+      object Button3: TButton
+        Left = 16
+        Top = 24
+        Width = 75
+        Height = 25
+        Caption = 'Button3'
+        TabOrder = 0
+      end
+    end
   end
 end
