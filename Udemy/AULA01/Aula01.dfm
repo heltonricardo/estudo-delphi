@@ -2,7 +2,7 @@ object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
   Caption = 'Menu'
-  ClientHeight = 544
+  ClientHeight = 305
   ClientWidth = 635
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -29,43 +29,32 @@ object frmPrincipal: TfrmPrincipal
     Caption = 'OK'
     TabOrder = 1
   end
-  object TouchKeyboard1: TTouchKeyboard
-    Left = 40
-    Top = 312
-    Width = 550
-    Height = 180
-    GradientEnd = clSilver
-    GradientStart = clGray
-    Layout = 'Standard'
-  end
-  object pnlPai: TPanel
+  object pnlExterno: TPanel
     Left = 32
     Top = 96
     Width = 585
     Height = 193
-    TabOrder = 3
+    TabOrder = 2
     object btnInserir: TButton
       Left = 496
       Top = 16
       Width = 75
       Height = 25
-      Hint = 'Bot'#227'o Inserir -> insere elemento'
       Caption = 'Inserir'
       TabOrder = 0
     end
-    object Panel2: TPanel
+    object pnlInterno: TPanel
       Left = 8
       Top = 7
       Width = 441
       Height = 170
-      Caption = 'Panel2'
       TabOrder = 1
-      object Button3: TButton
+      object btnDeletar: TButton
         Left = 16
         Top = 24
         Width = 75
         Height = 25
-        Caption = 'Button3'
+        Caption = 'Deletar'
         TabOrder = 0
       end
     end
