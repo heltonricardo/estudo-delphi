@@ -1,7 +1,7 @@
-object Form1: TForm1
+object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
-  Caption = 'Form1'
+  Caption = 'Menu'
   ClientHeight = 544
   ClientWidth = 635
   Color = clBtnFace
@@ -13,20 +13,20 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object Edit1: TEdit
+  object edtMensagem: TEdit
     Left = 40
     Top = 26
-    Width = 121
+    Width = 482
     Height = 21
     TabOrder = 0
-    Text = 'Edit1'
+    TextHint = 'Digite uma mensagem...'
   end
-  object Button1: TButton
-    Left = 208
+  object btnOK: TButton
+    Left = 528
     Top = 24
     Width = 75
     Height = 25
-    Caption = 'Button1'
+    Caption = 'OK'
     TabOrder = 1
   end
   object TouchKeyboard1: TTouchKeyboard
@@ -38,19 +38,19 @@ object Form1: TForm1
     GradientStart = clGray
     Layout = 'Standard'
   end
-  object Panel1: TPanel
+  object pnlPai: TPanel
     Left = 32
     Top = 96
     Width = 585
     Height = 193
-    Caption = 'Panel1'
     TabOrder = 3
-    object Button2: TButton
+    object btnInserir: TButton
       Left = 496
       Top = 16
       Width = 75
       Height = 25
-      Caption = 'Button2'
+      Hint = 'Bot'#227'o Inserir -> insere elemento'
+      Caption = 'Inserir'
       TabOrder = 0
     end
     object Panel2: TPanel

@@ -8,12 +8,12 @@ uses
   Vcl.ExtCtrls;
 
 type
-  TForm1 = class(TForm)
-    Edit1: TEdit;
-    Button1: TButton;
+  TfrmPrincipal = class(TForm)
+    edtMensagem: TEdit;
+    btnOK: TButton;
     TouchKeyboard1: TTouchKeyboard;
-    Panel1: TPanel;
-    Button2: TButton;
+    pnlPai: TPanel;
+    btnInserir: TButton;
     Panel2: TPanel;
     Button3: TButton;
   private
@@ -23,7 +23,7 @@ type
   end;
 
 var
-  Form1: TForm1;
+  frmPrincipal: TfrmPrincipal;
 
 implementation
 
