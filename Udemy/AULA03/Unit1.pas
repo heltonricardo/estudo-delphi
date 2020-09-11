@@ -25,7 +25,16 @@ implementation
 
 procedure TfmrTeste.FormCreate(Sender: TObject);
 begin
+  // Comentário simples
   Edit1.Text := DateToStr(Today);
+
+  {
+    Comentário de
+    várias linhas
+  }
+
+  // TODO: O que fazer = View > Tool Windows > To-Do List
+
 end;
 
 end.
